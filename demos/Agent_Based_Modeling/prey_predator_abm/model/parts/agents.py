@@ -29,7 +29,7 @@ def move_agents(params, substep, state_history, prev_state):
 
 def reproduce_agents(params, substep, state_history, prev_state):
     """
-    Generates an new agent through an nearby agent pair, subject to rules.
+    Generates an new agent through an nearby agent pair, subject to autonomous evolution of dynimical system.
     Not done.
     """
     agents = prev_state['agents']
